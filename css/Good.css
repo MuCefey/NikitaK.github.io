@@ -1,0 +1,206 @@
+@import url('https://fonts.cdnfonts.com/css/roboto');
+div.container{
+    width: 1480px;
+    margin: 0 auto;
+
+}
+.header {
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    margin: 0 auto;
+    justify-content: space-between;
+	align-items: center;
+    
+
+}
+body{
+    margin: 0px;
+}
+ul.one, ul.two {
+    list-style: none; 
+    margin: 0 auto;
+  }
+.menu a {
+    text-decoration: none;
+    transition: .5s linear;
+    color: black;
+
+  }
+.right_side a {
+    text-decoration: none;
+    transition: .5s linear;
+    color: black;
+}
+
+ul.one a:hover{
+    color:blueviolet
+}
+.one li {
+    display: inline;
+    padding: 10px;
+    font-family: 'Roboto', sans-serif;
+  }
+.two li {
+    display: inline;
+    padding: 10px;
+    font-family: 'Roboto', sans-serif;
+  }
+ul.two a:hover{
+    color:blueviolet
+}
+.right_side{
+    margin: 10px;
+    display: flex;
+
+    
+}
+form.search{
+    flex: 1 1 150px;
+    
+}
+.submit{
+    background-color: blueviolet;
+    color:white;
+    border: 0px;
+    width: 100px;
+    height: 27px;
+    font-family: 'Roboto', sans-serif;
+}
+.submit:hover{
+    color:white;
+    background-color: black;
+
+}
+.field_search{
+    width: 200px;
+    height: 20px;
+}
+.good_back{
+    width: 100%;
+    height: 647px;
+    background-color: black;
+    display: flex;
+}
+.good_name{
+    border-radius: 4px;
+    background-color: blueviolet;
+    height: 30px;
+}
+.PC1{
+    margin-left: 10px;
+}
+.content{
+    width: 100%;
+    height: 500px;
+    background-color: black;
+    display: flex;
+}
+.img{
+    width: 410px;
+    height: 435px;
+    background-color: white;
+    margin: 20px;
+    border-radius: 10px;
+}
+.good_img{
+    margin: 10px;
+    margin-top: 20px;
+    width: 400px;
+    height: 400px;
+}
+.discription{
+    margin-left: 20px;
+    color:white;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+.buy{
+    border-radius: 4px;
+    margin-top: 10px;
+    margin-left:540px;
+    display: block;
+    border: none;
+    background-color: white;
+    width: 280px;
+    height: 50px;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    
+}
+.buy:hover{
+    color:white;
+    background-color: black;
+}
+.price{
+    border-radius: 4px;
+    margin-top: 180px;
+    justify-content: center;
+    height: 70px;
+    display: flex;
+    background-color:blueviolet ;
+    margin-left: 20px;
+    color:white;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+.title{
+    border-radius: 4px;
+    margin-top: 10px;
+    width: 990px;
+    background-color: blueviolet;
+    margin-left: 20px;
+    color:white;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    padding-left: 10px;
+}
+.price1{
+    margin-top:15px;
+    width: 150px;
+    font-size: 30px;
+}
+.good_acss_img{
+    margin-top:10px;
+    margin-left: 10px;
+    width: 100px;
+    height: 100px;
+}
+.accs_img_back{
+    border-radius: 10px;
+    margin-right: 20px;
+    justify-content: center;
+    width: 110px;
+    height: 110px;
+    background-color: white;
+}
+.accessories_img{
+    display: flex;
+    margin: 20px;
+}
+.footer{
+    width: 100%;
+	display: flex;
+	justify-content: space-between;
+    background-color: blueviolet;
+    color: white;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+
+}
+.footer a {
+    text-decoration: none;
+    transition: .5s linear;
+    color: white;
+}
+.phone:hover{
+    color:white;
+    background-color: black;
+}
+.mail:hover{
+    color:white;
+    background-color: black;
+}
+.right_side_footer{
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
